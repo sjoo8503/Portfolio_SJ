@@ -1,0 +1,30 @@
+<template>
+  <div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6 arrow-right"
+      width="30"
+      color="#8E9BB3"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+      />
+    </svg>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.arrow-right {
+  cursor: pointer;
+}
+</style>

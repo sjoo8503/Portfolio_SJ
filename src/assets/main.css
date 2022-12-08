@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+#app {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.6rem "Lato", sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-txt-color);
+}
+
+header h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 10rem 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+header hr {
+  border: none;
+  background-color: var(--main-point-color);
+  height: 2.5px;
+  margin: 0 auto 7rem;
+  width: 5%;
+}
+
+/* Landscape Mobile to Portrait Tablet 404px ~ 847px */
+@media only screen and (max-width: 847px) {
+  header hr {
+    margin: 0 auto 7rem;
+    width: 10%;
+  }
+}
+/* Portrait Mobile 0px ~ 403px */
+@media only screen and (max-width: 403px) {
+}
+:root {
+  --main-bg-color: #fff;
+  --main-txt-color: #000;
+  --logo-bg-color: #263343;
+  --logo-txt-color: #fff;
+  --home-main-txt-color: #fff;
+  --home-sub-txt-color: rgb(193, 190, 190);
+  --home-button-hover-bg-color: rgba(193, 190, 190, 0.4);
+  --nav-hover-effect-color: #263343;
+  --nav-hover-txt-color: #fff;
+  --hover-txt-color: #fff;
+  --main-point-color: #05a1a6;
+  --main-point-bg-color: #12c1c9;
+  --input-border-color: #263343;
+  --focus-effect-border-color: tomato;
+  --focus-effect-bg-color: #eee;
+  --project-card-bg-color: #fff;
+  --button-bg-color: #263343;
+  --button-active-bg-color: #808080;
+  --button-txt-color: #fff;
+  --footer-icon-bg-color: #808080;
+  --footer-icon-hover-effect-color: #263343;
+}
+
+.dark-mode {
+  --main-bg-color: #0f1922;
+  --main-txt-color: #fff;
+  --logo-bg-color: #eee;
+  --logo-txt-color: #000;
+  --home-main-txt-color: #fff;
+  --home-sub-txt-color: rgb(193, 190, 190);
+  --home-button-hover-bg-color: rgba(193, 190, 190, 0.4);
+  --nav-hover-effect-color: #eee;
+  --nav-hover-txt-color: #000;
+  --hover-txt-color: #fff;
+  --main-point-color: #12c1c9;
+  --main-point-bg-color: #12c1c9;
+  --focus-effect-border-color: tomato;
+  --focus-effect-bg-color: #eee;
+  --project-card-bg-color: #0f1922;
+  --button-bg-color: #808080;
+  --button-active-bg-color: #020a13;
+  --button-txt-color: #fff;
+  --footer-icon-bg-color: #fff;
+  --footer-icon-hover-effect-color: #808080;
+}
