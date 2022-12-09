@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 #app {
-  height: 100vh;
+  /* height: 100vh; */
+  width: 100vw;
 }
 
 * {
@@ -19,6 +20,7 @@ body {
   font: 1.6rem "Lato", sans-serif;
   background-color: var(--main-bg-color);
   color: var(--main-txt-color);
+  /* padding-bottom: 17.5rem; */
 }
 
 header h1 {
@@ -67,6 +69,7 @@ header hr {
   --button-bg-color: #263343;
   --button-active-bg-color: #808080;
   --button-txt-color: #fff;
+  --footer-bg-color: #fff;
   --footer-icon-bg-color: #808080;
   --footer-icon-hover-effect-color: #263343;
 }
@@ -90,6 +93,7 @@ header hr {
   --button-bg-color: #808080;
   --button-active-bg-color: #020a13;
   --button-txt-color: #fff;
+  --footer-bg-color: #0f1922;
   --footer-icon-bg-color: #fff;
   --footer-icon-hover-effect-color: #808080;
 }

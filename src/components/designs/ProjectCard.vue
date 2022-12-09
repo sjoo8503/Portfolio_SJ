@@ -122,6 +122,7 @@ export default {
   /* border: solid 2px blue; */
   height: 100%;
   background-color: white;
+  overflow-y: scroll;
 }
 
 .modal__header {

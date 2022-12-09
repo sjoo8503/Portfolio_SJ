@@ -31,9 +31,10 @@ export default {
 
 <style scoped>
 .footer {
+  background-color: var(--footer-bg-color);
   text-align: center;
   padding: 3.5rem 0;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
 }

@@ -31,6 +31,7 @@
           class="projects__img"
           alt="text"
         />
+
         <div class="content__slate">
           <h3 class="content__title">
             {{ project.title }}
@@ -88,12 +89,16 @@ export default {
         },
         {
           id: 2,
-          imageUrl: ["", "", ""],
-          title: "Pokemon Card List",
+          imageUrl: [
+            "v1670543038/pokemon-card-list_00_wvdo6c.png",
+            "v1670473727/pokemon-card-list-02_wyscs3.png",
+            "v1670474712/Screen_Recording_2022-12-08_at_5.26.43_PM_iag684.mov",
+          ],
+          title: "Pokemon Card Generator",
           description:
-            "Pokemon Card Show, displays the different pokemons and their details based on user's selection",
+            "Pokemon Card Generator, displays the different pokemons and their details based on user's selection",
           about:
-            "Pokemon Card Show is a project that uses the pokemon API to display different pokemon cards and their details enough fun and engaging way. Using modern CSS, the card is displayed in a 3D way which is also interactive.",
+            "Pokemon Card Generator is a project that uses the pokemon API to display different pokemon cards and their details enough fun and engaging way. Using modern CSS, the card is displayed in a 3D way which is also interactive.",
           technologies: ["HTML & CSS", "JavaScript"],
           link: "",
           category: ["js", "all"],
@@ -155,6 +160,8 @@ export default {
 <style scoped>
 .project__page {
   overflow: scroll;
+  /* padding-bottom: 300px; */
+  /* min-height: 100%; */
 }
 
 .projects__type {
@@ -197,6 +204,7 @@ export default {
 }
 .projects__card {
   background-color: var(--project-card-bg-color);
+  min-width: 100%;
   max-width: 400px;
   height: 280px;
   position: relative;
@@ -286,6 +294,10 @@ export default {
   font-size: 1rem;
 }
 
+video {
+  width: 100px;
+  height: 100px;
+}
 /* Large Laptop to Desktop 1404px ~ 1728px */
 @media only screen and (max-width: 1728px) {
   .projects__type {

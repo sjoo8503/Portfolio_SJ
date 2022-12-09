@@ -93,6 +93,10 @@ export default {
   position: relative;
 }
 
+.nav::before {
+  position: fixed;
+}
+
 .nav__logo {
   font: 3rem "Abril Fatface", cursive;
   background-color: var(--logo-bg-color);
