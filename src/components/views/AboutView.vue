@@ -73,7 +73,7 @@ export default {
   justify-content: space-around;
   gap: 3rem;
   text-align: center;
-  margin: 0 20rem 15rem 20rem;
+  margin: 0rem 20rem;
 }
 
 .about__card {

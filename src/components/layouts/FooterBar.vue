@@ -37,6 +37,7 @@ export default {
   /* position: fixed; */
   bottom: 0;
   width: 100%;
+  margin-top: 10rem;
 }
 
 .footer hr {
