@@ -148,6 +148,11 @@ export default {
   margin: 5rem 0 1.5rem 0;
 }
 
+.modal__content h2,
+.modal__content h3,
+.modal__header a {
+  color: #000;
+}
 .modal__content p {
   color: #808080;
 }
