@@ -238,6 +238,7 @@ export default {
   position: absolute;
   top: 0;
   right: 0;
+  min-width: 100%;
   /* opacity: 0.4; */
   /* backdrop-filter: blur(5px); */
   flex-direction: column;
