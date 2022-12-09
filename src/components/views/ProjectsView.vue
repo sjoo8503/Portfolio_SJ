@@ -274,7 +274,7 @@ export default {
   object-fit: cover;
   opacity: 1;
   transition: 0.3s;
-  border: solid 1.5px #fff;
+  /* border: solid 1.5px #fff; */
   border-radius: 20px;
 }
 
